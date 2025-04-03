@@ -1,0 +1,2428 @@
+[
+    {
+        "Scenario ID": "S166",
+        "User Input": "Audit data analysis is available to all users",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S68",
+        "User Input": "The system is put into operation and used as is, without any prior or subsequent checks.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S41",
+        "User Input": "Periodic data backups are performed",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S127",
+        "User Input": "Are there any procedures for installing new hardware/software?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S22",
+        "User Input": "There is no written procedure",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S78",
+        "User Input": "The staff are not given any specific instructions and are left to deal with their own complaints.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Service are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S110",
+        "User Input": "Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S44",
+        "User Input": "Is there any control over external drives connected to the system or your work computer?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S156",
+        "User Input": "It is up to the sensitivity of the staff to ensure compliance with the application of safety procedures, which are described for this purpose in the \"Internal Safety Regulations\" of each location, where the safety measures adopted are indicated in detail.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S123",
+        "User Input": "There are armed guards present",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S187",
+        "User Input": "The maximum classification level of the information processed is SECRET but it is not considered necessary to adopt TEMPEST protection measures for the equipment and communication networks used in the CIS system in question.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S158",
+        "User Input": "Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Application logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) possono essere collegati all'attività di registrazione degli application logs. Questo scenario può aumentare il rischio di attacchi di playback e di attacchi asincroni, poiché gli attaccatori potrebbero utilizzare le log per riprodurre le interazioni utente e modificare i dati in modo non autorizzato.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) possono essere collegati all'attività di registrazione degli application logs. Questo scenario può aumentare il rischio di attacchi di playback e di attacchi asincroni, poiché gli attaccatori potrebbero utilizzare le log per riprodurre le interazioni utente e modificare i dati in modo non autorizzato.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S131",
+        "User Input": "Authorized technicians may be given the equipment used for processing classified data",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S26",
+        "User Input": "Staff is trained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S106",
+        "User Input": "The user can continue to use the password provided to him for the first access to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S104",
+        "User Input": "To access the system, users can continue to enter their password until they are granted access.",
+        "AI Response": [
+            {
+                "Extended": "M1 - Queuing Access, M2 - Password Reuse, M3 - Social Engineering, M4 - Malware, M5 - Insider Threats, M6 - Data Breach, M7 - Denial of Service, M8 - Unauthorized Access, M9 - Misconfiguration, M10 - Lack of User Training, M11 - Inadequate Access Controls, M12 - Inadequate Monitoring, M13 - Inadequate Incident Response, M14 - Inadequate Compliance, M15 - Inadequate Security Policies, M16 - Inadequate Change Management, M17 - Inadequate Backup and Recovery, M18 - Inadequate Network Segmentation, M19 - Inadequate Authentication, M20 - Inadequate Access Management, M21 - Masking, M22 - Threat M27 (Violation of login procedures), M23 - Threat M21 (Masking), M24 - Threat M27 (Violation of login procedures), M25 - Threat M21 (Masking), M26 -",
+                "Short": "yes",
+                "Details": "Violation of login procedures has been identified as a potential risk.",
+                "RiskID": "M27",
+                "RiskDesc": "Violation of login procedures",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M1 - Queuing Access, M2 - Password Reuse, M3 - Social Engineering, M4 - Malware, M5 - Insider Threats, M6 - Data Breach, M7 - Denial of Service, M8 - Unauthorized Access, M9 - Misconfiguration, M10 - Lack of User Training, M11 - Inadequate Access Controls, M12 - Inadequate Monitoring, M13 - Inadequate Incident Response, M14 - Inadequate Compliance, M15 - Inadequate Security Policies, M16 - Inadequate Change Management, M17 - Inadequate Backup and Recovery, M18 - Inadequate Network Segmentation, M19 - Inadequate Authentication, M20 - Inadequate Access Management, M21 - Masking, M22 - Threat M27 (Violation of login procedures), M23 - Threat M21 (Masking), M24 - Threat M27 (Violation of login procedures), M25 - Threat M21 (Masking), M26 -",
+                "Short": "yes",
+                "Details": "Masking has been identified as a potential risk.",
+                "RiskID": "M21",
+                "RiskDesc": "Masking",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M1 - Queuing Access, M2 - Password Reuse, M3 - Social Engineering, M4 - Malware, M5 - Insider Threats, M6 - Data Breach, M7 - Denial of Service, M8 - Unauthorized Access, M9 - Misconfiguration, M10 - Lack of User Training, M11 - Inadequate Access Controls, M12 - Inadequate Monitoring, M13 - Inadequate Incident Response, M14 - Inadequate Compliance, M15 - Inadequate Security Policies, M16 - Inadequate Change Management, M17 - Inadequate Backup and Recovery, M18 - Inadequate Network Segmentation, M19 - Inadequate Authentication, M20 - Inadequate Access Management, M21 - Masking, M22 - Threat M27 (Violation of login procedures), M23 - Threat M21 (Masking), M24 - Threat M27 (Violation of login procedures), M25 - Threat M21 (Masking), M26 -",
+                "Short": "yes",
+                "Details": "Violation of login procedures has been identified as a potential risk.",
+                "RiskID": "M27",
+                "RiskDesc": "Violation of login procedures",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M1 - Queuing Access, M2 - Password Reuse, M3 - Social Engineering, M4 - Malware, M5 - Insider Threats, M6 - Data Breach, M7 - Denial of Service, M8 - Unauthorized Access, M9 - Misconfiguration, M10 - Lack of User Training, M11 - Inadequate Access Controls, M12 - Inadequate Monitoring, M13 - Inadequate Incident Response, M14 - Inadequate Compliance, M15 - Inadequate Security Policies, M16 - Inadequate Change Management, M17 - Inadequate Backup and Recovery, M18 - Inadequate Network Segmentation, M19 - Inadequate Authentication, M20 - Inadequate Access Management, M21 - Masking, M22 - Threat M27 (Violation of login procedures), M23 - Threat M21 (Masking), M24 - Threat M27 (Violation of login procedures), M25 - Threat M21 (Masking), M26 -",
+                "Short": "yes",
+                "Details": "Masking has been identified as a potential risk.",
+                "RiskID": "M21",
+                "RiskDesc": "Masking",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Application are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S26",
+        "User Input": "Staff is trained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S193",
+        "User Input": "The management of the utilities is entrusted to the staff of the parent company, who makes the necessary changes remotely by connecting from another country, communicating the list of added/modified/suspended and cancelled utilities to the CIS Security Officer on a monthly basis.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S158",
+        "User Input": "Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S110",
+        "User Input": "Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S136",
+        "User Input": "The combinations of the safety cabinets are written on them in case you forget them.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S34",
+        "User Input": "There is no register for access to restricted areas",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S73",
+        "User Input": "A program for detecting computer viruses and malware is installed on the system, which is updated at least weekly, capable of recognizing the viral strain and the type of infection, proceeding to quarantine or delete the infected files.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S22",
+        "User Input": "There is no written procedure",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S136",
+        "User Input": "The combinations of the safety cabinets are written on them in case you forget them.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S158",
+        "User Input": "Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S71",
+        "User Input": "The system is continuously updated, applying the security patches released by the manufacturer, after a formal check of its functioning has been carried out. Each change is noted in the system configuration change log",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S44",
+        "User Input": "Is there any control over external drives connected to the system or your work computer?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S38",
+        "User Input": "The computers are installed in locked offices",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S160",
+        "User Input": "Users have access to configuration/administration procedures and management tools",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S156",
+        "User Input": "It is up to the sensitivity of the staff to ensure compliance with the application of safety procedures, which are described for this purpose in the \"Internal Safety Regulations\" of each location, where the safety measures adopted are indicated in detail.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S156",
+        "User Input": "It is up to the sensitivity of the staff to ensure compliance with the application of safety procedures, which are described for this purpose in the \"Internal Safety Regulations\" of each location, where the safety measures adopted are indicated in detail.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S158",
+        "User Input": "Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S187",
+        "User Input": "The maximum classification level of the information processed is SECRET but it is not considered necessary to adopt TEMPEST protection measures for the equipment and communication networks used in the CIS system in question.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S86",
+        "User Input": "Users are allowed to leave their workstations without having to take any special precautions.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Service logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S160",
+        "User Input": "Users have access to configuration/administration procedures and management tools",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S110",
+        "User Input": "Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S82",
+        "User Input": "The CED is installed inside a room with plasterboard walls, closed with a normal wooden door",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Platform logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi di tipo M10 e M24. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono sfruttare le informazioni raccolte dai log per attuare attacchi",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S158",
+        "User Input": "Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S158",
+        "User Input": "Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S86",
+        "User Input": "Users are allowed to leave their workstations without having to take any special precautions.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S132",
+        "User Input": "The doors of the reserved areas are closed in the absence of staff but the cabinets are left open",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S66",
+        "User Input": "There are no specific procedures for controlling the development of new software created directly by the company",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S22",
+        "User Input": "There is no written procedure",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S127",
+        "User Input": "Are there any procedures for installing new hardware/software?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S10",
+        "User Input": "Anyone can access the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S23",
+        "User Input": "There are written procedures",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S193",
+        "User Input": "The management of the utilities is entrusted to the staff of the parent company, who makes the necessary changes remotely by connecting from another country, communicating the list of added/modified/suspended and cancelled utilities to the CIS Security Officer on a monthly basis.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S66",
+        "User Input": "There are no specific procedures for controlling the development of new software created directly by the company",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S26",
+        "User Input": "Staff is trained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Platform are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S78",
+        "User Input": "The staff are not given any specific instructions and are left to deal with their own complaints.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S172",
+        "User Input": "All storage media are properly protected to prevent disclosure of information during maintenance work on the CIS Service workstations.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S179",
+        "User Input": "Software updates concern only the antivirus, and are done online.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S70",
+        "User Input": "No security patches released by the manufacturer are ever applied to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S23",
+        "User Input": "There are written procedures",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S176",
+        "User Input": "In case of any malfunction of all the HW components of the Application (PC, server, switch, etc.) users contact the company in charge of maintenance directly without informing anyone else.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S57",
+        "User Input": "To access the CED, you must be previously authorised. Access is via an electronically locked door that must be unlocked using your personal badge and the relevant access PIN.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S171",
+        "User Input": "At least once every six months the consistency of the users registered in the CIS Platform is verified",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S106",
+        "User Input": "The user can continue to use the password provided to him for the first access to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S127",
+        "User Input": "Are there any procedures for installing new hardware/software?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S120",
+        "User Input": "In case of emergency, the staff immediately abandons their positions and leaves the documents where they are to get to safety as soon as possible.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S98",
+        "User Input": "Cabinets and desks remain open even after working hours and non-essential systems are left on when unattended",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S110",
+        "User Input": "Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S162",
+        "User Input": "The data relating to “user authentication” are available to anyone who requests them.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S134",
+        "User Input": "The keys to the reserved areas are given to those who need them, without having to verify their authorization.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S22",
+        "User Input": "There is no written procedure",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S153",
+        "User Input": "At the end of an event that requires the implementation of emergency procedures, the Security Officer orders the immediate resumption of activities, without verifying the consistency of the classified material",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S70",
+        "User Input": "No security patches released by the manufacturer are ever applied to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S35",
+        "User Input": "There is a register for access to restricted areas",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S182",
+        "User Input": "The responsibility of the security organization is to verify that the CIS Platform maintains its security features over time, possibly adapting the system itself to new emerging threats and vulnerabilities, subject to approval of the changes by DIS-UCSe according to the National Certification Scheme",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Application logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) sono minacce che potrebbero sfruttare le registrazioni degli application logs. Queste minacce possono portare a un accesso non autorizzato ai dati sensibili dell'utente e alla possibilità di intercettare e modificare le comunicazioni tra l'applicazione e il sistema operativo.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) sono minacce che potrebbero sfruttare le registrazioni degli application logs. Queste minacce possono portare a un accesso non autorizzato ai dati sensibili dell'utente e alla possibilità di intercettare e modificare le comunicazioni tra l'applicazione e il sistema operativo.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S143",
+        "User Input": "The Restricted Areas are protected by appropriate security measures (such as, for example, armoured doors, anti-intrusion alarm systems, safes and security containers for the storage of classified information)",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S160",
+        "User Input": "Users have access to configuration/administration procedures and management tools",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S22",
+        "User Input": "There is no written procedure",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S37",
+        "User Input": "The computers are installed in \"open space\" offices also open to the public",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S47",
+        "User Input": "There are measures to protect against lightning",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S23",
+        "User Input": "There are written procedures",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S78",
+        "User Input": "The staff are not given any specific instructions and are left to deal with their own complaints.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S56",
+        "User Input": "Anyone can access the CED, without checks",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S102",
+        "User Input": "Users can also use passwords made up of identical characters or numbers to access the system, and it is also possible to use empty passwords or passwords of the type \"password\" or \"admin\"",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S164",
+        "User Input": "The CIS Application services are managed based on user access rights, identification and assignment of access rights are managed directly by the system users.",
+        "AI Response": [
+            {
+                "Extended": "M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate al scenario di accesso utente e gestione dei diritti. Queste minacce possono essere utilizzate per intercettare dati in transito e bypassare le protezioni del sistema, rischiando di compromettere la sicurezza dell'applicazione CIS.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate al scenario di accesso utente e gestione dei diritti. Queste minacce possono essere utilizzate per intercettare dati in transito e bypassare le protezioni del sistema, rischiando di compromettere la sicurezza dell'applicazione CIS.",
+                "Short": "yes",
+                "Details": "Unconditional access procedure has been identified as a potential risk.",
+                "RiskID": "M23",
+                "RiskDesc": "Unconditional access procedure",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S22",
+        "User Input": "There is no written procedure",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S10",
+        "User Input": "Anyone can access the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S50",
+        "User Input": "The computers handle highly classified data and TEMPEST protection measures are in place",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S164",
+        "User Input": "The CIS Platform services are managed based on user access rights, identification and assignment of access rights are managed directly by the system users.",
+        "AI Response": [
+            {
+                "Extended": "M4 (Asynchronous attack) e M21 (Masking) sono minacce che potrebbero essere associate a questa situazione. M4 potrebbe essere utilizzato per intercettare e modificare dati in transito, mentre M21 potrebbe permettere a un soggetto di accedere al sistema con un falso identificativo.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M4 (Asynchronous attack) e M21 (Masking) sono minacce che potrebbero essere associate a questa situazione. M4 potrebbe essere utilizzato per intercettare e modificare dati in transito, mentre M21 potrebbe permettere a un soggetto di accedere al sistema con un falso identificativo.",
+                "Short": "yes",
+                "Details": "Masking has been identified as a potential risk.",
+                "RiskID": "M21",
+                "RiskDesc": "Masking",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Platform logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, tra cui l'accesso non autorizzato e la violazione della privacy.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, tra cui l'accesso non autorizzato e la violazione della privacy.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Application are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S19",
+        "User Input": "There are no emergency plans",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S110",
+        "User Input": "Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Platform are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S37",
+        "User Input": "The computers are installed in \"open space\" offices also open to the public",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S110",
+        "User Input": "Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S70",
+        "User Input": "No security patches released by the manufacturer are ever applied to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S103",
+        "User Input": "Users must use passwords of at least 12 characters to access the system, which must contain at least one number, one special character and one capital letter. Furthermore, it is not possible to enter more than two consecutive identical numbers or letters and it is not possible to enter empty passwords or passwords vulnerable to dictionary-based attacks",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S43",
+        "User Input": "Anyone can connect any external drive to the system or their work computer",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S156",
+        "User Input": "It is up to the sensitivity of the staff to ensure compliance with the application of safety procedures, which are described for this purpose in the \"Internal Safety Regulations\" of each location, where the safety measures adopted are indicated in detail.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S171",
+        "User Input": "At least once every six months the consistency of the users registered in the CIS Service is verified",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S38",
+        "User Input": "The computers are installed in locked offices",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S78",
+        "User Input": "The staff are not given any specific instructions and are left to deal with their own complaints.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Application logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) sono minacce che potrebbero sfruttare le registrazioni degli application logs per ottenere accesso non autorizzato. Questo scenario potrebbe rivelarsi pericoloso se non vengono implementate misure di sicurezza adeguati.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) sono minacce che potrebbero sfruttare le registrazioni degli application logs per ottenere accesso non autorizzato. Questo scenario potrebbe rivelarsi pericoloso se non vengono implementate misure di sicurezza adeguati.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S78",
+        "User Input": "The staff are not given any specific instructions and are left to deal with their own complaints.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S140",
+        "User Input": "The internal and external lighting of the reserved areas is turned off in the event of absence of personnel to promote energy saving",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S179",
+        "User Input": "Software updates concern only the antivirus, and are done online.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S178",
+        "User Input": "The IT system is in primary PC/secondary PC architecture and is composed of two “All in One” type computers, completed by a connection switch between the two stations and between these and a multifunction printer. Both the PC and the printer are TEMPEST Class B devices",
+        "AI Response": [
+            {
+                "Extended": "M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due to the potential for software vulnerabilities and data interception. M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due",
+                "Short": "yes",
+                "Details": "Computer virus attack has been identified as a potential risk.",
+                "RiskID": "M6",
+                "RiskDesc": "Computer virus attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due to the potential for software vulnerabilities and data interception. M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due to the potential for software vulnerabilities and data interception. M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due",
+                "Short": "yes",
+                "Details": "Computer virus attack has been identified as a potential risk.",
+                "RiskID": "M6",
+                "RiskDesc": "Computer virus attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due to the potential for software vulnerabilities and data interception. M6 (Computer virus attack) and M4 (Asynchronous attack) are identified as threats to the IT system. The primary architecture is a primary PC/secondary PC setup with TEMPEST Class B devices, which may limit the risk of electromagnetic interference. However, the risk remains due",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S115",
+        "User Input": "All classified documents are labeled with the classification level of the data they contain.",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M9 (Searching through the garbage) sono minacce che potrebbero essere associate a questa situazione di rischio. M10 si riferisce a un canale di comunicazione segreto che potrebbe essere usato per accedere a documenti classificati. M9 riguarda la ricerca di informazioni in luoghi non autorizzati, come la spazzatura, per ottenere accesso a documenti sensibili.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M9 (Searching through the garbage) sono minacce che potrebbero essere associate a questa situazione di rischio. M10 si riferisce a un canale di comunicazione segreto che potrebbe essere usato per accedere a documenti classificati. M9 riguarda la ricerca di informazioni in luoghi non autorizzati, come la spazzatura, per ottenere accesso a documenti sensibili.",
+                "Short": "yes",
+                "Details": "Searching through the garbage has been identified as a potential risk.",
+                "RiskID": "M9",
+                "RiskDesc": "Searching through the garbage",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S11",
+        "User Input": "Only those who have a password can access the system. The password must meet complexity requirements, is stored in a historical database and must be changed once every 90 days. The password is shared among members of the same office",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S22",
+        "User Input": "There is no written procedure",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S26",
+        "User Input": "Staff is trained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S143",
+        "User Input": "The Restricted Areas are protected by appropriate security measures (such as, for example, armoured doors, anti-intrusion alarm systems, safes and security containers for the storage of classified information)",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Platform logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Queste minacce possono essere utilizzate per nascondere attività malevole o per riprodurre input legittimi per ingannare gli utenti.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Platform logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, ma le più rilevanti sono M10 e M24.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, ma le più rilevanti sono M10 e M24.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S14",
+        "User Input": "The system is installed in the highest-ranking operating mode, and only authorized users can access documents.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S179",
+        "User Input": "Software updates concern only the antivirus, and are done online.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Application are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S193",
+        "User Input": "The management of the utilities is entrusted to the staff of the parent company, who makes the necessary changes remotely by connecting from another country, communicating the list of added/modified/suspended and cancelled utilities to the CIS Security Officer on a monthly basis.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Service logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S70",
+        "User Input": "No security patches released by the manufacturer are ever applied to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S127",
+        "User Input": "Are there any procedures for installing new hardware/software?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S131",
+        "User Input": "Authorized technicians may be given the equipment used for processing classified data",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S96",
+        "User Input": "There are no special procedures during the processing of sensitive data",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Platform logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, ma le principali sono M10 e M24.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, ma le principali sono M10 e M24.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S25",
+        "User Input": "Staff is not trained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S45",
+        "User Input": "You can connect to the system or to your work computer only and exclusively external drives, appropriately labelled and stored in specific security containers based on the highest classification level of the data contained in them, listed in the specific register of authorised media.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S156",
+        "User Input": "It is up to the sensitivity of the staff to ensure compliance with the application of safety procedures, which are described for this purpose in the \"Internal Safety Regulations\" of each location, where the safety measures adopted are indicated in detail.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S13",
+        "User Input": "The system is installed in the highest-ranked operating mode, and all users can access all documents, regardless of their security clearance, role and need-to-know.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S134",
+        "User Input": "The keys to the reserved areas are given to those who need them, without having to verify their authorization.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S68",
+        "User Input": "The system is put into operation and used as is, without any prior or subsequent checks.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S126",
+        "User Input": "There is an access control system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S66",
+        "User Input": "There are no specific procedures for controlling the development of new software created directly by the company",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S38",
+        "User Input": "The computers are installed in locked offices",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S113",
+        "User Input": "In the corridors of the reserved area, printers dedicated to printing classified documents have been installed, in order to reduce the generation of dust inside the data processing center and the offices containing the IT equipment.",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M9 (Searching through the garbage) sono minacce che potrebbero essere correlate al scenario descritto. Queste minacce possono essere utilizzate per accedere a documenti classificati e per raccogliere informazioni sensibili.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M9 (Searching through the garbage) sono minacce che potrebbero essere correlate al scenario descritto. Queste minacce possono essere utilizzate per accedere a documenti classificati e per raccogliere informazioni sensibili.",
+                "Short": "yes",
+                "Details": "Searching through the garbage has been identified as a potential risk.",
+                "RiskID": "M9",
+                "RiskDesc": "Searching through the garbage",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S11",
+        "User Input": "Only those who have a password can access the system. The password must meet complexity requirements, is stored in a historical database and must be changed once every 90 days. The password is shared among members of the same office",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S34",
+        "User Input": "There is no register for access to restricted areas",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S78",
+        "User Input": "The staff are not given any specific instructions and are left to deal with their own complaints.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S13",
+        "User Input": "The system is installed in the highest-ranked operating mode, and all users can access all documents, regardless of their security clearance, role and need-to-know.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S110",
+        "User Input": "Computers and servers are delivered to the equipment maintenance technicians for repair with the mass storage media inserted.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Platform logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, tra cui l'accesso non autorizzato e la violazione della privacy.",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere esposto a diverse minacce, tra cui l'accesso non autorizzato e la violazione della privacy.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S26",
+        "User Input": "Staff is trained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S140",
+        "User Input": "The internal and external lighting of the reserved areas is turned off in the event of absence of personnel to promote energy saving",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Service are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S156",
+        "User Input": "It is up to the sensitivity of the staff to ensure compliance with the application of safety procedures, which are described for this purpose in the \"Internal Safety Regulations\" of each location, where the safety measures adopted are indicated in detail.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S26",
+        "User Input": "Staff is trained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S158",
+        "User Input": "Inspections are carried out annually by external personnel in order to check the maintenance and observance of the safety regulations and procedures in force.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Platform logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage channel) e M24 (Playback Retransmission) are threats that could be correlated with the risk of system log recording. This scenario could be used to hide malicious activities, such as data modification or user input capture. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage channel) e M24 (Playback Retransmission) are threats that could be correlated with the risk of system log recording. This scenario could be used to hide malicious activities, such as data modification or user input capture. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage channel) e M24 (Playback Retransmission) are threats that could be correlated with the risk of system log recording. This scenario could be used to hide malicious activities, such as data modification or user input capture. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage channel) e M24 (Playback Retransmission) are threats that could be correlated with the risk of system log recording. This scenario could be used to hide malicious activities, such as data modification or user input capture. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage channel) e M24 (Playback Retransmission) are threats that could be correlated with the risk of system log recording. This scenario could be used to hide malicious activities, such as data modification or user input capture. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage",
+                "Short": "yes",
+                "Details": "Covert storage channel has been identified as a potential risk.",
+                "RiskID": "M10",
+                "RiskDesc": "Covert storage channel",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage channel) e M24 (Playback Retransmission) are threats that could be correlated with the risk of system log recording. This scenario could be used to hide malicious activities, such as data modification or user input capture. M10 (Covert storage channel) e M24 (Playback Retransmission) sono minacce che potrebbero essere correlate al rischio di registrazione dei log del sistema. Questo scenario potrebbe essere utilizzato per nascondere attività malevole, come la modifica di dati o la rilevazione di input utente. M10 (Covert storage",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S78",
+        "User Input": "The staff are not given any specific instructions and are left to deal with their own complaints.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S168",
+        "User Input": "The access and exit of employees and visitors to the CIS Service are stored in special electronic registers, reporting the information required by current legislation and the Internal CIS Security Regulations. In particular, the following information is recorded: - Start-up and shutdown of the operating system; - Log-on, with or without success; - Log-off of each user from the workstation; - Creation/modification of users and user groups; - Modification of user and group privileges and permissions; - Modifications to system security settings (including audit functions); - Access to data relating to system security; - Creation, modification or deletion of audit files; - Change of system time and date; - Failed attempts to access system resources. The data is overwritten monthly and is not retained",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S96",
+        "User Input": "There are no special procedures during the processing of sensitive data",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S143",
+        "User Input": "The Restricted Areas are protected by appropriate security measures (such as, for example, armoured doors, anti-intrusion alarm systems, safes and security containers for the storage of classified information)",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S180",
+        "User Input": "Software updates concern only the antivirus, and are performed offline.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S51",
+        "User Input": "The computers process high-level classified data and TEMPEST protection measures are adopted in accordance with the results of the TEMPEST Zoning carried out",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S127",
+        "User Input": "Are there any procedures for installing new hardware/software?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S147",
+        "User Input": "All authorised personnel are periodically trained in safety and a high level of attention is paid to safety issues.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S131",
+        "User Input": "Authorized technicians may be given the equipment used for processing classified data",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S189",
+        "User Input": "The communication channels between the servers and between them and the clients are protected via VPN generated by a third-party cloud service.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S18",
+        "User Input": "Application logs are recorded",
+        "AI Response": [
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) sono minacce che potrebbero sfruttare le log di applicazione per ottenere accesso non autorizzato. Questo scenario potrebbe portare a una violazione della sicurezza e danni alle risorse dell'organizzazione.",
+                "Short": "yes",
+                "Details": "Playback Retransmission has been identified as a potential risk.",
+                "RiskID": "M24",
+                "RiskDesc": "Playback Retransmission",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M24 (Playback Retransmission) e M4 (Asynchronous attack) sono minacce che potrebbero sfruttare le log di applicazione per ottenere accesso non autorizzato. Questo scenario potrebbe portare a una violazione della sicurezza e danni alle risorse dell'organizzazione.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S130",
+        "User Input": "Authorized visitors can, in principle, access restricted areas",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S31",
+        "User Input": "There is no log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S179",
+        "User Input": "Software updates concern only the antivirus, and are done online.",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S23",
+        "User Input": "There are written procedures",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S127",
+        "User Input": "Are there any procedures for installing new hardware/software?",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S16",
+        "User Input": "No system logs are recorded",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S131",
+        "User Input": "Authorized technicians may be given the equipment used for processing classified data",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S131",
+        "User Input": "Authorized technicians may be given the equipment used for processing classified data",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S38",
+        "User Input": "The computers are installed in locked offices",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S37",
+        "User Input": "The computers are installed in \"open space\" offices also open to the public",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S64",
+        "User Input": "Any software can be installed on the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S35",
+        "User Input": "There is a register for access to restricted areas",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S164",
+        "User Input": "The CIS Application services are managed based on user access rights, identification and assignment of access rights are managed directly by the system users.",
+        "AI Response": [
+            {
+                "Extended": "M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS. M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS. M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS.",
+                "Short": "yes",
+                "Details": "Unconditional access procedure has been identified as a potential risk.",
+                "RiskID": "M23",
+                "RiskDesc": "Unconditional access procedure",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS. M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS.",
+                "Short": "yes",
+                "Details": "Asynchronous attack has been identified as a potential risk.",
+                "RiskID": "M4",
+                "RiskDesc": "Asynchronous attack",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            },
+            {
+                "Extended": "M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS. M4 (Asynchronous attack) e M23 (Unconditional access procedure) sono minacce che potrebbero essere correlate a questa situazione. Queste minacce possono compromettere l'accesso e la gestione delle risorse dell'applicazione CIS.",
+                "Short": "yes",
+                "Details": "Unconditional access procedure has been identified as a potential risk.",
+                "RiskID": "M23",
+                "RiskDesc": "Unconditional access procedure",
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S42",
+        "User Input": "Periodic data backups are performed on a daily basis, in incremental mode, with rotation of the storage memories and relative conservation in special fireproof security containers and suitable for the highest classification level of the data contained therein. There are two copies of each backup, one of which is stored on site and the other at a secondary site, also approved at the same level as the main one and with the same conservation methods",
+        "AI Response": [
+            {
+                "Extended": "M6 (Computer virus attack) and V4 (Failure to periodically check the procedures installed on the system) are identified as threats. The next step is to link these threats to vulnerabilities.",
+                "Short": "yes",
+                "Details": "Computer virus attack is linked to Failure to periodically check the procedures installed on the system",
+                "RiskID": "M6",
+                "RiskDesc": "Computer virus attack",
+                "VulnID": "V4",
+                "VulnDesc": "Failure to periodically check the procedures installed on the system",
+                "RiskType": "Potential"
+            }
+        ]
+    },
+    {
+        "Scenario ID": "S32",
+        "User Input": "There is a log of changes made to the system",
+        "AI Response": [
+            {
+                "Short": "no"
+            }
+        ]
+    }
+]

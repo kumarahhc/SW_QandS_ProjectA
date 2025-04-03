@@ -26,3 +26,16 @@ print("Data split complete.")
 print(f"Training set: {len(train_df)} samples")
 print(f"Validation set: {len(val_df)} samples")
 print(f"Test set: {len(test_df)} samples")
+
+def saveJsonL(string_data, filename):
+    """
+    Writes a string to a file and downloads it.
+
+    Args:
+        string_data (str): The string data to be written to the file.
+        filename (str): The name of the file.
+
+    """
+    with open(filename, 'w', encoding=file_encoding) as file:
+        file.write(string_data)
+    files.download(filename)
