@@ -4,4 +4,5 @@ LLaMA-O1-Supervised-1129.Q8_0.gguf
 O1-OPEN.OpenO1-Qwen-7B-v0.1.Q5_K_M.gguf
 OpenO1-LLama-8B-v0.1.Q6_K.gguf
 llama-2-7b.Q4_K_M.gguf
+llama-2-7b-chat.Q6_K.gguf
 .venv/

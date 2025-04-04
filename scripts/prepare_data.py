@@ -4,6 +4,7 @@ import faiss
 import numpy as np
 import pickle
 
+"""Prepare data and Generate Vecor DB that will be used in RAG setup"""
 def prepare_data():
     vul_df=pd.read_csv("../data/Vulnerability.csv")
     threat_df=pd.read_csv("../data/Threats.csv")
@@ -29,6 +30,22 @@ def prepare_data():
             "id":row["THREAT ID"],
             "title":row["THREAT"],
             "description":row["DESCRIPTION"]
+        })
+    
+    # Security Standards
+    standards = [
+        "PCM-ANS TI-002: Secure authentication mechanisms must be implemented.",
+        "PCM-ANS TI-002: Untested software applications are considered vulnerabilities.",
+        "PCM-ANS TI-002: Asynchronous attacks must be mitigated through proper access controls."
+    ]
+    for i, standard in enumerate(standards, start=1):
+        text = f"Standard S{i}: {standard}"
+        chunks.append(text)
+        metadata.append({
+            "type": "standard",
+            "id": f"S{i}",
+            "title": f"Standard {i}",
+            "description": standard
         })
     """   
     for _, row in risk_analysis_df.iterrows():
@@ -57,6 +74,7 @@ def build_vector_db():
         pickle.dump(metadata,f)
         
     print(f"DB Indexed created")
+    
     
     
 if __name__ == "__main__":

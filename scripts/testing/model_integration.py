@@ -1,5 +1,5 @@
 from llama_cpp import Llama
-from rag_setup import setup_rag, get_rag_prompt
+from scripts.testing.rag_setup import setup_rag, get_rag_prompt
 import re
 
 # Load the GGUF model

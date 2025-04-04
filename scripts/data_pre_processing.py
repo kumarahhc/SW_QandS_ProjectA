@@ -4,6 +4,7 @@ import pandas as pd
 from faker import Faker
 from sklearn.model_selection import train_test_split
 
+"""Used to process data before testing"""
 # Initialize Faker for anonymization
 fake = Faker()
 

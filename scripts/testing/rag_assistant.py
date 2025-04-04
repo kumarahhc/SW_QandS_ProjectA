@@ -16,9 +16,7 @@ with open("metadata.pkl", "rb") as f:
 embed_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 # Load LLaMA Model
-#llm = Llama(model_path="llama-O1-Supervised-1129-q4_k_m.gguf")
-llm = Llama(model_path="OpenO1-LLama-8B-v0.1.Q6_K.gguf", n_ctx=512)
-
+llm = Llama(model_path="llama-O1-Supervised-1129-q4_k_m.gguf")
 #llm = Llama(model_path="LLaMA-O1-Supervised-1129.Q8_0.gguf")
 #llm = Llama(model_path="llama-2-7b.Q4_K_M.gguf", verbose=True)
 
@@ -36,33 +34,57 @@ def retrieve_context(query, top_k=2):
             context += f"\nThreat {r['id']} ({r['title']}): {r['description']}"
     return context
 
-def generate_response(prompt):
+def generate_response(prompt, max_tokens=512):
     """Generate LLaMA model output."""
-    #response = llm(prompt, max_tokens=max_tokens,repeat_penalty=1.2, temperature=0,stop=["\n"])
-    response = llm(prompt, max_tokens=512, temperature=0, repeat_penalty=1.2) 
-    return response["choices"][0]["text"].strip()
+    response = llm(prompt, max_tokens=max_tokens,repeat_penalty=1.2, temperature=0,stop=["\n"])
+    return response["choices"][0]["text"]
 
 def parse_output(response):
     """Parse the model's output into structured data."""
-    json_cleaned_output = re.search(r"\[.*\]", response, re.DOTALL)
-    
-    if json_cleaned_output:
-        # Clean the output to ensure it's a valid JSON array
-        raw_json = json_cleaned_output.group().strip()
-        
-        # Remove unwanted text like '[Output]' from the start and any other non-JSON elements
-        cleaned_json = re.sub(r"\[Output\]|\n|<.*?>|\[END OF OUTPUT\]", "", raw_json).strip()
-        
-        print("Cleaned JSON:", cleaned_json)
+    # Extract threats (Mxx) and vulnerabilities (Vxx)
+    ####threats = re.findall(r"M\d+\s\([^)]+\)", response)  # Matches "M10 (Covert storage channel)"
+    #####vulnerabilities = re.findall(r"V\d+\s\([^)]+\)", response)  # Matches "V7 (Untested software)"
+    threats = re.findall(r"M\d+\s\([^)]+\)", response)
+    vulnerabilities = re.findall(r"V\d+\s\([^)]+\)", response)
 
-        try:
-            # Try parsing the cleaned JSON
-            json_output = json.loads(cleaned_json)
-            return json_output
-        except json.JSONDecodeError as e:
-            return {"error": f"Model produced invalid JSON: {e}"}
-    else:
-        return {"error": "No valid JSON found in the output"}
+    classification = "Real" if "real risk" in response.lower() else "Potential"
+
+    parsed_results = []
+
+    # If threats exist but no vulnerabilities are found, return threats alone
+    if threats and not vulnerabilities:
+        for threat in threats:
+            threat_id, threat_desc = re.match(r"(M\d+)\s\((.+?)\)", threat).groups()
+            parsed_results.append({
+                "Extended": response.strip(),
+                "Short": "yes",
+                "Details": f"{threat_desc} has been identified as a potential risk.",
+                "RiskID": threat_id,
+                "RiskDesc": threat_desc,
+                "VulnID": "N/A",
+                "VulnDesc": "No vulnerabilities explicitly mentioned.",
+                "RiskType": classification
+            })
+
+    # If both threats and vulnerabilities are found, link them
+    for threat in threats:
+        threat_id, threat_desc = re.match(r"(M\d+)\s\((.+?)\)", threat).groups()
+
+        for vuln in vulnerabilities:
+            vuln_id, vuln_desc = re.match(r"(V\d+)\s\((.+?)\)", vuln).groups()
+            parsed_results.append({
+                "Extended": response.strip(),
+                "Short": "yes",
+                "Details": f"{threat_desc} is linked to {vuln_desc}",
+                "RiskID": threat_id,
+                "RiskDesc": threat_desc,
+                "VulnID": vuln_id,
+                "VulnDesc": vuln_desc,
+                "RiskType": classification
+            })
+
+    # If no threats or vulnerabilities are found, return "no"
+    return parsed_results if parsed_results else [{"Short": "no"}]
 
 def InteractiveResult():
     while True:
@@ -100,7 +122,10 @@ def InteractiveResult():
         []
 
         Scenario:
-        '{user_input}'        
+        '{user_input}'
+        
+        correlate :
+        {context}
         """
 
         print("\n Prompt:")

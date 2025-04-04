@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 from model_integration import generate_response
-from rag_setup import setup_rag, get_rag_prompt
+from scripts.testing.rag_setup import setup_rag, get_rag_prompt
 
 # Initialize RAG
 db = setup_rag()
